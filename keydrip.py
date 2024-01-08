@@ -19,10 +19,7 @@ class handler():
         self.session = cloudscraper.session()
         self.name = "Keydrip"
         self.version = "1.0.0"
-        self.proxies = {
-            "http": "http://fudxodevproxy:fuddotesting_country-us_streaming-1@geo.iproyal.com:12321",
-            "https": "http://fudxodevproxy:fuddotesting_country-us_streaming-1@geo.iproyal.com:12321"
-        }
+        self.proxies = None
         with open("config.yaml", "r") as f:
             config = yaml.safe_load(f)
             self.steamLoginSecure = config["steamLoginSecure"]
