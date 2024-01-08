@@ -19,7 +19,7 @@ Before using Keydrip, you need to set up a configuration file. Create a `config.
 }
 ```
 
-Replace the placeholder with your actual `steamLoginSecure` value.
+Replace the placeholder with your actual `steamLoginSecure` value from https://steamcommunity.com/.
 
 ## Installation
 
