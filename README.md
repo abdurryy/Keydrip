@@ -10,24 +10,6 @@ Before using Keydrip, you need to set up a configuration file. Create a `config.
 {
    "steamLoginSecure": "get value from https://i.imgur.com/EhJ6shN.png" 
 }
-
-Sure, I'll format the README content in a way that's easy for you to copy and paste:
-
----
-
-```markdown
-# Keydrip
-
-Keydrip is an innovative Python package designed to interact with Key-Drop.com, enabling users to automate various tasks with ease and efficiency. It offers functionalities such as checking account balance and redeeming codes, all while navigating through the site's security measures. Keydrip sets a new standard for convenience and functionality in the realm of online botting tools.
-
-## Configuration
-
-Before using Keydrip, you need to set up a configuration file. Create a `config.yaml` file in the same directory as your Python script with the following structure:
-
-```yaml
-{
-   "steamLoginSecure": "get value from https://i.imgur.com/EhJ6shN.png" 
-}
 ```
 
 Replace the placeholder with your actual `steamLoginSecure` value.
